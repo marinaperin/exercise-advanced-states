@@ -8,9 +8,9 @@ export default function () {
     sex: "",
   });
   const [message, setMessage] = useState("");
-  const text = () => `Thank you for signing up!`;
   const compiledForm = { ...formData };
-
+  const text = () => `Thank you for signing up!`;
+  
   return (
     <>
       <h3>Exercise 2</h3>

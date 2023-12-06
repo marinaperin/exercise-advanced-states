@@ -5,19 +5,18 @@ import List from "./components/List";
 
 function App() {
   const greet = (name) => `Hello, ${name}!`;
-  const exercises = ["exercise 1", "exercise 2", "exercise 3"];
 
   return (
     <>
       <main>
         <div>
-          <Greet greet={greet} id="ex1" />
+          <Greet greet={greet}/>
         </div>
         <div>
-          <Form id="ex2" />
+          <Form/>
         </div>
         <div>
-          <List id="ex3" greet={greet} />
+          <List greet={greet} />
         </div>
       </main>
     </>

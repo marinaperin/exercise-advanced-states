@@ -19,7 +19,7 @@ export default function ({ greet }) {
             setUserName("");
           }}
         >
-          Submit
+          Greet
         </button>
         <p>{greeting}</p>
       </div>
